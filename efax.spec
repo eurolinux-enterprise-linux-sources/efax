@@ -1,7 +1,7 @@
 Summary: A program for faxing using a Class 1, 2 or 2.0 fax modem
 Name: efax
 Version: 0.9a
-Release: 14.001114%{?dist}
+Release: 15%{?dist}
 License: GPLv2+
 Group: Applications/Communications
 Url: http://www.cce.com/efax/
@@ -71,6 +71,9 @@ rm -rf %{buildroot}
 %dir %{_localstatedir}/log/fax
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.9a-15
+- Mass rebuild 2013-12-27
+
 * Wed Mar 06 2013 Than Ngo <than@redhat.com> - 0.9a-14.001114
 - add -fno-strict-aliasing into RPM_OPT_FLAGS
 
